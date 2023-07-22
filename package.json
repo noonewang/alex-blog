@@ -1,27 +1,20 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
-  "private": true,
+  "name": "alex-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "build": "hexo generate",
-    "clean": "hexo clean",
-    "deploy": "hexo deploy",
-    "server": "hexo server",
-    "netlify": "npm run clean && npm run build"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "docs:serve": "vitepress serve docs"
   },
-  "hexo": {
-    "version": ""
-  },
-  "dependencies": {
-    "hexo": "^6.3.0",
-    "hexo-generator-archive": "^2.0.0",
-    "hexo-generator-category": "^2.0.0",
-    "hexo-generator-index": "^3.0.0",
-    "hexo-generator-tag": "^2.0.0",
-    "hexo-renderer-ejs": "^2.0.0",
-    "hexo-renderer-marked": "^6.0.0",
-    "hexo-renderer-stylus": "^3.0.0",
-    "hexo-server": "^3.0.0",
-    "hexo-theme-landscape": "^1.0.0"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "1.0.0-beta.6",
+    "vue": "^3.3.4"
   }
 }
