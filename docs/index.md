@@ -4,22 +4,25 @@ layout: home
 
 hero:
   name: "alex's blog"
-  text: "something should be remember"
-  tagline: My great project tagline
+  text: "Hope is a good thing, maybe the best of things"
+  tagline: 希望是一件好事，也许是最好的事情
+  image: 
+    src: /logo.png
+    alt: alex
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: About me
+      link: /blog/me
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: blogs
+      link: /blog/know_nothing
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 🏖
+    title: Life
+    details: 记录生活美好瞬间和珍贵回忆🌱🌈
+  - icon: 🔨
+    title: Code
+    details: 一起探索代码的魅力、技术的奥秘，以及成长的喜悦 🚀💻
 ---
 
