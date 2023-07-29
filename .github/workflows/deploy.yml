@@ -66,10 +66,10 @@ jobs:
     name: build in vps
     runs-on: ubuntu-latest
     steps:
-      - name: pm2 start
+      - name: docs run
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.DEPLOY_HOST }}
           username: ${{ secrets.DEPLOY_USER }}
           key: ${{ secrets.DEPLOY_SECRET }}
-          script: cd ~/alex-blog && git pull && && npm i && bash /scripts/run.sh
+          script: cd ~/alex-blog && git pull && npm i && bash /scripts/run.sh
