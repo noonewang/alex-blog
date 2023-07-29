@@ -71,5 +71,5 @@ jobs:
         with:
           host: ${{ secrets.DEPLOY_HOST }}
           username: ${{ secrets.DEPLOY_USER }}
-          password: ${{ secrets.DEPLOY_SECRET }}
+          key: ${{ secrets.DEPLOY_SECRET }}
           script: cd ~/alex-blog && git pull && bash /scripts/run.sh
