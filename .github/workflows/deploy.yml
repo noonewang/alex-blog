@@ -72,4 +72,4 @@ jobs:
           host: ${{ secrets.DEPLOY_HOST }}
           username: ${{ secrets.DEPLOY_USER }}
           key: ${{ secrets.DEPLOY_SECRET }}
-          script: cd ~/alex-blog && git pull && bash /scripts/run.sh
+          script: cd ~/alex-blog && git pull && && npm i && bash /scripts/run.sh
