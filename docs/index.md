@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "alex's posts"
+  name: "alex's blog"
   text: "Hope is a good thing, maybe the best of things"
   tagline: 希望是一件好事，也许是最好的事情
   image:
